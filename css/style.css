@@ -141,25 +141,15 @@
 
   .title h1,
   .title .pink {
-    letter-spacing: 14px;
+    letter-spacing: 12px;
     line-height: 80px;
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 
 @media all and (max-width: 1300px) {
   .content {
     padding-left: 80px;
-  }
-
-  .title .pink {
-    letter-spacing: 12px;
-    font-size: 3rem;
-  }
-
-  .title h1 {
-    letter-spacing: 12px;
-    font-size: 3rem;
   }
 }
 
