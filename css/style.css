@@ -134,9 +134,11 @@
     padding-left: 120px;
     padding-top: 50px;
   }
+
   .title {
     margin-top: 70px;
   }
+
   .title h1,
   .title .pink {
     letter-spacing: 14px;
@@ -149,11 +151,33 @@
   .content {
     padding-left: 80px;
   }
+
+  .title .pink {
+    letter-spacing: 12px;
+    font-size: 3rem;
+  }
+
+  .title h1 {
+    letter-spacing: 12px;
+    font-size: 3rem;
+  }
 }
 
 @media all and (max-width: 1100px) {
   .content {
     padding-left: 40px;
+  }
+  .title .pink {
+    letter-spacing: 12px;
+    font-size: 2.5rem;
+  }
+
+  .title h1 {
+    letter-spacing: 12px;
+    font-size: 2.5rem;
+  }
+  .title {
+    margin-top: 40px;
   }
 }
 
